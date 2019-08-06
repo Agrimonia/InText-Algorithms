@@ -4,15 +4,15 @@ InTexT抒写应用的算法部分
 
 ## env requirements
 
-`pip torch-0.4.1-cp37-cp37m-win_amd64.whl`（在本文件夹下）
+`pip install torch-0.4.1-cp37-cp37m-win_amd64.whl`（在本文件夹下）
 
-``pip install allennlp`
+`pip install allennlp`
 
-PS: allennlp 要求的 pytorch 版本为 0.4，此版本只有官方源，在国内下载速度较慢，故本文件夹包含了torch0.4的安装文件。
+PS: 在python3.7版本下运行，allennlp 要求的 pytorch 版本为 0.4，此版本只有官方源，在国内下载速度较慢，故本文件夹包含了torch0.4的安装文件。
 
 ## Manual
 
-功能通过 model.py 中的 Simple 类的 search 函数进行操作，test.py 中提供了示例。
+功能通过 model.py 中的 Simple 类的 search 函数进行操作，test.py 中提供了示例。已训练好劳动合同模板，直接运行test.py进行演示
 
 ## 语料库准备
 
